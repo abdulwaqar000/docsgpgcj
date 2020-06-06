@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Computer Science</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="responce.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="head">
+            <img src="images/computericon.png" alt="computericon" width="50px" height="50px">
+            <div class="depart-text">
+                <p>Department of <br>Computer Science</p>
+            </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon">
+                <img src="images/whitetoggler.png" alt="" width="40px" height="40px">
+                </span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-success" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-success" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-success" href="contactus.html">Contact Us <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link activate dropdown-toggle btn-outline-success" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Acount
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="nav-link btn-outline-success" href="login.html">Log In</a>
+                        <a class="nav-link activate btn-outline-success" href="#">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-success" href="#">Library <span class="sr-only">(current)</span></a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            </div>
+    </nav>
+
+
+    <div class="welcome">
+        <p>WELCOME TO THE COMPUTER SCIENCE DEPARTMENT<br> Govt. Post Graduate College, JHANG</p>
+    </div>
+
+
+    <div class="registration-background">
+
+        <div class="registration-form">
+
+            <img src="images/registrationlogo.png" width="100px" height="100px" alt="">
+            <h4>REGISTRATION FORM
+                <hr class="registration-hr">
+            </h4>
+
+            <form action="submission.html" method="POST">
+
+                <label class="label" for="firstname">First Name</label>
+                <input class="input1" type="text" placeholder="Enter First Name" maxlength="20" required>
+
+
+                <label class="label" for="lastname">Last Name</label>
+                <input class="input1" type="text" placeholder="Enter last Name" maxlength="20" required>
+
+
+                <label class="label" for="fathername">Father's Name</label>
+                <input class="input1" type="text" placeholder="Enter Father Name" maxlength="30" required>
+
+
+                <label class="label" for="cnic">CNIC No.</label>
+                <input class="input1" type="number" placeholder="Enter CNIC Number  e.g(xxxxx-xxxxxxx-x)" required>
+
+                <label class="label" for="dob">Date of Birth</label>
+                <input class="input1" type="date" required>
+
+                <label class="label" for="contact">Contact No.</label>
+                <input class="input1" type="number" placeholder="Enter Contact Number" required>
+
+                <label class="label" for="email">Email</label>
+                <input class="input1" type="email" placeholder="Enter Email Address" required>
+
+
+                <label class="label" for="semester">Semester No.</label>
+                <input class="input1" type="text" list="list" placeholder="Enter Semester" required>
+                <datalist id="list">
+                <option value="1st Semester">
+                <option value="2nd Semester">
+                <option value="3rd Semester">
+                <option value="4th Semester">
+                <option value="5th Semester">
+                <option value="6th Semester">
+                <option value="7th Semester">
+                <option value="8th Semester">
+
+                </datalist>
+
+                <label class="label" for="session">Session</label>
+                <input class="input1" type="text" list="list1" placeholder="Enter Session" required>
+                <datalist id="list1">
+                <option value="Morning">
+                <option value="Evening">
+
+                </datalist>
+
+                <label class="label" for="rollno">Roll No.</label>
+                <input class="input1" type="number" placeholder="Enter College Roll Number" required>
+
+                <label class="label" for="registrationno">Registration No.</label>
+                <input class="input1" type="text" placeholder="Enter University Registration Number" required>
+
+                <div style="display: block; text-align: center; margin-top: 20px;">
+                    <button class="btn1">REGISTER</button>
+                </div>
+            </form>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>

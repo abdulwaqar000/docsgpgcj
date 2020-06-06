@@ -1,0 +1,302 @@
+.navbar {
+    background-color: #34495E !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.nav-link {
+    color: #D7DBDD !important;
+    font-size: 13px !important;
+}
+
+.activate {
+    color: white !important;
+    background-color: rgb(20, 167, 83);
+}
+
+.btn {
+    color: #D7DBDD !important;
+}
+
+.btn:hover {
+    color: white !important;
+}
+
+.depart-text {
+    height: 40px;
+    text-align: justify;
+    font-size: 13px;
+    color: white;
+    margin-left: 5px;
+}
+
+.navbar-toggler-icon {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.nav-link {
+    border: 1px solid green;
+    border-radius: 4px;
+    margin: 2px;
+    text-align: center;
+}
+
+.dropdown-menu {
+    background-color: #34495E !important;
+}
+
+.form-inline {
+    justify-content: center !important;
+}
+
+.welcome {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(250, 250, 250);
+    font-weight: bold;
+    color: #5D6D7E;
+    font-family: 'Merriweather';
+}
+
+.mainbody {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(252, 250, 250);
+}
+
+.anouncement {
+    width: 20%;
+    margin: 20px;
+    padding: 10px;
+    color: blue;
+}
+
+.anounce-hr {
+    border: none;
+    height: 2px;
+    background: blue;
+    margin-top: 5px;
+}
+
+.marq {
+    text-align: justify;
+    color: #5D6D7E;
+}
+
+.hod {
+    color: #283747;
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features {
+    padding: 30px 150px 30px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #2E4053;
+}
+
+.item {
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(252, 250, 250);
+    box-shadow: 0px 2px 5px black;
+    margin: 5px;
+    width: 200px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.features h4 {
+    font-family: 'Merriweather';
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: rgb(37, 55, 75);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.logos .fa {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+    margin: 0px 5px 10px 0px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.logos a:hover i {
+    background-color: rgb(125, 125, 216);
+    color: black;
+    transform: scale(1.3);
+}
+
+.login-background {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("images/loginbackground.png");
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.login {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    border-radius: 20px;
+    border: none;
+    padding: 5px 5px 5px 35px;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.login i {
+    padding-top: 6px;
+    width: 40px;
+    position: absolute;
+    text-align: center;
+}
+
+.btn1 {
+    color: blue;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 13px;
+    padding: 5px 15px 5px 15px;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.btn1:focus {
+    outline: none;
+}
+
+.registration-background {
+    background-image: url("images/registrationbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 200px 50px 200px;
+}
+
+.registration-form {
+    background: linear-gradient(#48c6ef, #6f86d6);
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-form h4 {
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+.registration-hr {
+    border: none;
+    height: 2px;
+    margin-top: 2px;
+    background: #F47930;
+}
+
+.label {
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.input1 {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    width: 400px;
+    font-weight: bold;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+    outline: none;
+}
+
+.input1:focus {
+    background-color: wheat;
+    width: 500px;
+}
+
+.input1::placeholder {
+    font-weight: lighter;
+}
+
+.registration-form .btn1 {
+    width: 150px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.submitted {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.alert {
+    font-size: 20px;
+    font-weight: bold;
+}
